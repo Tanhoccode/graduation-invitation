@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư Mời Lễ Tốt Nghiệp - Nguyễn Minh Tân</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background overlay -->
+    <div class="bg-overlay"></div>
+    
+    <!-- Floating decorations -->
+    <div class="floating-decor">
+        <div class="float-element" style="top: 10%; left: 5%;">✨</div>
+        <div class="float-element" style="top: 20%; right: 10%;">🎓</div>
+        <div class="float-element" style="top: 70%; left: 8%;">⭐</div>
+        <div class="float-element" style="top: 80%; right: 15%;">✨</div>
+        <div class="float-element" style="top: 40%; left: 15%;">💫</div>
+        <div class="float-element" style="top: 60%; right: 5%;">🌟</div>
+    </div>
+
+    <div class="container">
+        <!-- Main invitation wrapper -->
+        <div class="invitation-wrapper">
+            
+            <!-- Top section with decorative header -->
+            <div class="top-section">
+                <div class="ornament-top">
+                    <svg viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0,20 Q50,0 100,20 T200,20" stroke="url(#gold-gradient)" stroke-width="2" fill="none"/>
+                        <defs>
+                            <linearGradient id="gold-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+                                <stop offset="50%" style="stop-color:#FFD700;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                
+                <h3 class="invitation-label">THÂN MỜI BẠN ĐÉN THAM DỰ</h3>
+                <h1 class="main-title">LỄ TÓT NGHIỆP</h1>
+                
+                <div class="divider-gold">
+                    <span class="divider-diamond">◆</span>
+                </div>
+            </div>
+
+            <!-- Photo section with frame -->
+            <div class="photo-section">
+                <div class="photo-frame">
+                    <div class="frame-corners">
+                        <span class="corner corner-tl"></span>
+                        <span class="corner corner-tr"></span>
+                        <span class="corner corner-bl"></span>
+                        <span class="corner corner-br"></span>
+                    </div>
+                    <img src="graduation.jpg" alt="Nguyễn Minh Tân" class="grad-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+            </div>
+
+            <!-- Name section -->
+            <div class="name-section">
+                <p class="of-text">của</p>
+                <h2 class="graduate-name">Nguyễn Minh Tân</h2>
+                <div class="star-divider">
+                    <span>✦</span>
+                    <span>✦</span>
+                    <span>✦</span>
+                </div>
+            </div>
+
+            <!-- Details grid -->
+            <div class="details-grid">
+                <div class="detail-card">
+                    <div class="detail-icon">📍</div>
+                    <div class="detail-info">
+                        <h4 class="detail-title">Địa Điểm</h4>
+                        <p class="detail-text">Khu E Đại Học<br>Công Nghệ TPHCM</p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-icon">🕐</div>
+                    <div class="detail-info">
+                        <h4 class="detail-title">Thời Gian</h4>
+                        <p class="detail-text">11:00 AM</p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-icon">📞</div>
+                    <div class="detail-info">
+                        <h4 class="detail-title">Liên Hệ</h4>
+                        <p class="detail-text">0935778251</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Message section -->
+            <div class="message-section">
+                <div class="quote-mark">"</div>
+                <p class="invitation-message">
+                    Sự hiện diện của bạn là niềm vinh hạnh<br>
+                    và niềm vui lớn lao của tôi
+                </p>
+                <div class="quote-mark closing">"</div>
+            </div>
+
+            <!-- Footer signature -->
+            <div class="footer-section">
+                <p class="regards">Trân trọng,</p>
+                <p class="signature">Nguyễn Minh Tân</p>
+                
+                <div class="ornament-bottom">
+                    <svg viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0,20 Q50,40 100,20 T200,20" stroke="url(#gold-gradient-2)" stroke-width="2" fill="none"/>
+                        <defs>
+                            <linearGradient id="gold-gradient-2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+                                <stop offset="50%" style="stop-color:#FFD700;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Particle animation -->
+    <canvas id="particles-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
